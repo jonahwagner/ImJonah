@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonah Wagner - Web Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1><span class="greeting" id="timeGreeting">Good Afternoon</span>, I'm Jonah Wagner</h1>
+                <p>I'm a high school student inrested in <span class="highlight">Business and Technology!</span> I build impactful software and assist clients with everything from <span class="highlight">Marketing to SQL. </span></p>
+                <div class="cta-buttons">
+                    <a href="#about" class="btn btn-primary">About Me</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="section-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+                        </svg>
+                    </div>
+                    <h2>A Bit <span class="underline">About Me.</span></h2>
+                    <div class="about-text">
+                        <p>Hi there! I'm Jonah. I am a high schooler from New Jersey. I started my journey in computer science from a young age and have developed an immense passion for creating impactful digital solutions. I specialize in working with clients to help them achieve their business goals through the implementation of new technologies, and working with existing technolgies already in place.</p>
+                        <p>I work hands-on with all my clients to allow them to have a say in creating finished products that provide real value to the the users. I handle a variety of different things for clients depending on the scope of a project and I am always eager to learn new skills.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/wagnerjonah/" target="_blank" class="social-btn">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                            </svg>
+                        </a>
+                        </a>
+                        <a href="mailto:jonah@wagnersetup.com" class="social-btn">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/dev/1707366851496.jpeg" alt="Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <div class="header-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                </div>
+                <h2>My <span class="highlight">Skills</span></h2>
+            </div>
+            
+            <!-- Development -->
+            <div class="skill-category">
+                <h3>Development</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="images/dev/react.svg" alt="React" class="tech-icon">
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/nextjs.svg" alt="Next.js" class="tech-icon">
+                        <span>Next.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/typescript.svg" alt="TypeScript" class="tech-icon">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/js.png" alt="JavaScript" class="tech-icon">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/angular_icon_gradient.gif" alt="Angular" class="tech-icon">
+                        <span>Angular</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/csharp.svg" alt="C#" class="tech-icon">
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/swift.svg" alt="Swift" class="tech-icon">
+                        <span>Swift</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/html.png" alt="HTML5" class="tech-icon">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/dev/css.svg" alt="CSS3" class="tech-icon">
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud & Infrastructure -->
+            <div class="skill-category">
+                <h3>Cloud & Infrastructure</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="images/business/azure.png" alt="Microsoft Azure" class="tech-icon">
+                        <span>Microsoft Azure</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/windows-server.svg" alt="Windows Server" class="tech-icon">
+                        <span>Windows Server</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/sql-server.svg" alt="SQL Server" class="tech-icon">
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/mongodb.svg" alt="MongoDB" class="tech-icon">
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/powershell.svg" alt="PowerShell" class="tech-icon">
+                        <span>PowerShell</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Solutions -->
+            <div class="skill-category">
+                <h3>Business Solutions</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="images/business/dynamics365.svg" alt="Microsoft Dynamics 365" class="tech-icon">
+                        <span>Microsoft Dynamics</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/m365.png" alt="Microsoft 365 Administration" class="tech-icon">
+                        <span>365 Administration</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/power-platform.svg" alt="Power Platform" class="tech-icon">
+                        <span>Power Platform</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/quickbooks.png" alt="QuickBooks Online" class="tech-icon">
+                        <span>QuickBooks Online</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/business/mailchimp.png" alt="Mailchimp" class="tech-icon">
+                        <span>Mailchimp</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <h2>Get in Touch</h2>
+                <p class="contact-description">
+                    Do you have a question for me or are you interested in a potential project? Don't hesitate to reach out!<br>
+                    Whether you are simply saying hi or intrested in discussing potential collaborations,<br>
+                    I'm here and ready to chat!
+                </p>
+
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/xeooklzb" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="email@wagnersetup.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message goes here" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Connect with Me</h4>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/wagnerjonah">LinkedIn</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>CONTACT ME</h4>
+                        <ul>
+                            <li>jonah@wagnersetup.com</li>
+                            <li>For hiring inquires, please<br>contact me through my<br>contact form!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-name">
+                <h1>Jonah</h1>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+        }
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark' || (!savedTheme && prefersDarkScheme.matches)) {
+            document.body.classList.add('dark-theme');
+        }
+        
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Time-based greeting
+        function updateGreeting() {
+            const hour = new Date().getHours();
+            const greeting = document.getElementById('timeGreeting');
+            
+            if (hour >= 5 && hour < 12) {
+                greeting.textContent = 'Good Morning';
+                greeting.className = 'greeting morning';
+            } else if (hour >= 12 && hour < 17) {
+                greeting.textContent = 'Good Afternoon';
+                greeting.className = 'greeting afternoon';
+            } else {
+                greeting.textContent = 'Good Evening';
+                greeting.className = 'greeting evening';
+            }
+        }
+
+        updateGreeting();
+        setInterval(updateGreeting, 60000);
+    </script>
+</body>
+</html>

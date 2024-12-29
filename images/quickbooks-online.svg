@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <defs>
+        <linearGradient id="qb_gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#2CA01C"/>
+            <stop offset="100%" style="stop-color:#39B54A"/>
+        </linearGradient>
+    </defs>
+    <path fill="url(#qb_gradient)" d="M48 0C21.49 0 0 21.49 0 48s21.49 48 48 48 48-21.49 48-48S74.51 0 48 0zm0 86C27 86 10 69 10 48S27 10 48 10s38 17 38 38-17 38-38 38z"/>
+    <path fill="url(#qb_gradient)" d="M52.63 28h-17v40h8V52h9c8.84 0 16-5.37 16-12s-7.16-12-16-12zm0 16h-9v-8h9c2.21 0 4 1.79 4 4s-1.79 4-4 4z"/>
+</svg>
